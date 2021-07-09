@@ -1,1 +1,158 @@
-body {  div#root{    background-color: #222;    color: #8EE4AF;  }}
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 20px;
+  border: 0;
+  padding: 0;
+}
+.header {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 50px;
+  .search,
+  .menu {
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.6923em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: #74c2bd;
+    transition: 0.2s ease-in-out;
+    .underline {
+      width: auto;
+    }
+  }
+}
+.navbar-brand {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000;
+  line-height: 50px;
+  cursor: pointer;
+}
+.underline {
+  width: 20px;
+  clear: both;
+  height: 1px;
+  display: block;
+  margin-top: 5px;
+  border-top: solid 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-section {
+  background: #f5f5f5;
+  text-align: center;
+  .blog-heading {
+    padding: 50px;
+    font-weight: 900;
+    .underline {
+      width: 100px;
+    }
+  }
+}
+
+.white-circle {
+  width: 8%;
+  border-radius: 50%;
+  background: white;
+  line-height: 0;
+  position: relative;
+  cursor: pointer;
+}
+.white-circle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.circle-text {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+}
+.post-content {
+  max-width: 600px;
+  // margin: auto;
+  cursor: pointer;
+}
+
+.post-text{
+  text-align: start;
+}
+.content{
+  text-align: start;
+}
+.post-title {
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #000;
+  text-decoration: none;
+  padding: 20px 0;
+}
+.post-title:hover {
+  color: #74c2bd;
+  text-decoration: none;
+}
+.category-name {
+  color: #74c2bd;
+  cursor: pointer;
+  text-decoration: none;
+}
+.category-name:hover {
+  color: #000;
+  text-decoration-line: underline;
+}
+
+.viewpost {
+  background: #f5f5f5;
+  padding: 50px;
+}
+.viewpost-data{
+  text-align: center;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.tags-section {
+  padding: 20px 0;
+}
+
+img:hover {
+  opacity: 0.7;
+}
+
+// .footer{
+//   display: grid;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 30px;
+// }
+
+.footer-link {
+  color: #000;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #74c2bd;
+  text-decoration-line: underline;
+}

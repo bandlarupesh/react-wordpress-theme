@@ -1,5 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "index.scss";
-let HelloWorld = () => {  return <h1>Hello World!!!!</h1>}
-ReactDOM.render(  <HelloWorld/>,  document.getElementById("root"));
+import { BrowserRouter as Router } from "react-router-dom";
+import App from "./App";
+
+ReactDOM.render(
+  <Router>
+    <App />
+  </Router>,
+  document.getElementById("app")
+);

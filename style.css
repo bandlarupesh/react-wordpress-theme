@@ -1,0 +1,13 @@
+/*
+Theme Name: My Custom React Theme
+Theme URI: https://yourwebsite.com/theme
+Author: Rupesh Bandla
+Author URI: https://wordpress.com
+Description: This is my first react custom theme!
+Version: 1.0
+Text Domain: my-custom-react-theme
+Tags: custom-background,custom-theme
+*/
+.page-link {
+  cursor: pointer;
+}
