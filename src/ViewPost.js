@@ -112,7 +112,7 @@ function ViewPost() {
               <img
                 src={image?.rendered}
                 alt="featured-image"
-                width="600px"
+                width="100%"
               />
             ) : (
               <p>No Featured Image</p>

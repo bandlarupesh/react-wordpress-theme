@@ -51,7 +51,7 @@ function PostsList(props) {
   }, []);
 
   return (
-    <div className="container-fluid post-list-container">
+    <div className="container-fluid">
       <div className="d-flex align-items-start justify-content-center">
         <div className="white-circle mx-5">
           <div className="circle-text text-muted">
